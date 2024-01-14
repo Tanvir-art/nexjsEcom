@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <>
 
-    <div className="fixed w-full">
+    <div className="fixed w-full z-10">
       <MobileSearch/>
     </div>
 
