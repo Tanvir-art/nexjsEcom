@@ -5,7 +5,7 @@ const JustComponent = ({title, price, priceOne, totalRating, discount}) => {
     <div className="card card-compact bg-base-100 shadow-xl">
     <figure><img src="image/product.webp" alt="Shoes" /></figure>
     <div className="card-body">
-      <h2 className="card-title text-[16px]">{title}</h2>
+      <h2 className="card-title text-[14px]">{title}</h2>
       <div className="flex justify-center ">
           {
   
@@ -31,7 +31,7 @@ const JustComponent = ({title, price, priceOne, totalRating, discount}) => {
   
       </div>
   
-      <h2 className="absolute bottom-44 md:bottom-60 lg:bottom-52 bg-[#F95706] px-4 py-3 rounded-full text-white">{discount}</h2>
+      <h2 className="absolute bottom-44 md:bottom-60 lg:bottom-56 left-1 bg-[#F95706] px-1 py-1 rounded-full text-white text-sm">{discount}</h2>
      
   
     </div>

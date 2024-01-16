@@ -18,3 +18,6 @@ body{
     width: 16px; /* Set the width of each star */
     height: 16px; /* Set the height of each star */
   }
+  .groups:hover .groupsBlock{
+    display: block;
+  }

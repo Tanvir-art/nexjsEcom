@@ -3,21 +3,16 @@ const Footer = () => {
   return (
     <>
       <div className="hidden md:hidden lg:block">
-        <div className="flex justify-center  gap-6 bg-[#fff] py-10">
+        <div className="flex justify-center  gap-10 bg-[#fff] py-10">
           <div className="flex flex-col gap-4">
             <img width={100} src="image/logo.svg" alt="logo" />
-            <p className="text-[#F95706]">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br />{" "}
-              Rem eaque suscipit nemo quaerat molestiae ut rerum <br />{" "}
+            <p className="text-[#F95706] w-[250px] ">
+              Lorem ipsum dolor sit, amet  consectetur adipisicing elit. 
+              Rem eaque suscipit  nemo quaerat molestiae ut rerum 
               blanditiis sed! Aut, et.
             </p>
 
-            <h2 className="text-xl font-bold">Find Us</h2>
-            <div className="text-[#F95706]">
-              <p>Address: Khulna, Bangladesh</p>
-              <p>Phone: +88019000000</p>
-              <p>Email: yourmail@gmail.com</p>
-            </div>
+
           </div>
 
           <div>
@@ -79,6 +74,15 @@ const Footer = () => {
                 <p>Get it on</p>
                 <p className="font-bold">Google Play</p>
               </div>
+            </div>
+          </div>
+
+          <div>
+          <h2 className="text-xl font-bold">Find Us</h2>
+            <div className="text-[#F95706]">
+              <p>Address: Khulna, Bangladesh</p>
+              <p>Phone: +88019000000</p>
+              <p>Email: yourmail@gmail.com</p>
             </div>
           </div>
         </div>
