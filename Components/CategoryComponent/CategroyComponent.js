@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const CategroyComponent = ({title}) => {
@@ -6,7 +7,7 @@ const CategroyComponent = ({title}) => {
     
     <div>
       <div className="card card-compact bg-base-100 shadow-xl">
-  <figure><img src="image/product.webp" alt="Product" /></figure>
+  <figure><Image width={300} height={500} src="/image/product.webp" alt="Product" /></figure>
   <div className="card-body">
     <h2 className="card-title text-[14px]">{title}</h2>
   

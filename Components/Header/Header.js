@@ -4,6 +4,7 @@ import { FaTshirt } from "react-icons/fa";
 import Slider from "../Slider/Slider";
 import Responsive from "../ResponsiveMenu/Responsive";
 import MobileSearch from "../MobileSearch/MobileSearch";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -27,8 +28,8 @@ const Header = () => {
               </span>
 
               <div className="hidden group-hover:block absolute left-[280px] top-1 w-[207px] bg-white border border-gray-200 p-2 rounded-md shadow-md h-[300px]">
-                <a
-                  href="#"
+                <Link
+                  href="/"
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100 groups"
                 >
                   Item 1
@@ -48,10 +49,10 @@ const Header = () => {
                       />
                     </div>
                   </div>
-                </a>
+                </Link>
 
-                <a
-                  href="#"
+                <Link
+                  href="/"
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100 groups"
                 >
                   Item 2
@@ -69,13 +70,13 @@ const Header = () => {
                     </div>
                   </div>
 
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  href="/"
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                 >
                   Item 3
-                </a>
+                </Link>
               </div>
             </li>
 
@@ -91,24 +92,24 @@ const Header = () => {
               </span>
 
               <div className="hidden group-hover:block absolute left-[280px] top-1 w-[200px] bg-white border border-gray-200 p-2 rounded-md shadow-md h-[300px]">
-                <a
-                  href="#"
+                <Link
+                  href="/"
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                 >
                   Item 1
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  href="/"
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                 >
                   Item 2
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  href="/"
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                 >
                   Item 3
-                </a>
+                </Link>
               </div>
             </li>
 
@@ -124,24 +125,24 @@ const Header = () => {
               </span>
 
               <div className="hidden group-hover:block absolute left-[280px] top-1 w-[200px] bg-white border border-gray-200 p-2 rounded-md shadow-md h-[300px]">
-                <a
-                  href="#"
+                <Link
+                  href="/"
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                 >
                   Item 1
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  href="/"
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                 >
                   Item 2
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  href="/"
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                 >
                   Item 3
-                </a>
+                </Link>
               </div>
             </li>
 
@@ -157,24 +158,24 @@ const Header = () => {
               </span>
 
               <div className="hidden group-hover:block absolute left-[280px] top-1 w-[200px] bg-white border border-gray-200 p-2 rounded-md shadow-md h-[300px]">
-                <a
-                  href="#"
+                <Link
+                  href="/"
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                 >
                   Item 1
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  href="/"
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                 >
                   Item 2
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  href="/"
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                 >
                   Item 3
-                </a>
+                </Link>
               </div>
             </li>
 
@@ -190,24 +191,24 @@ const Header = () => {
               </span>
 
               <div className="hidden group-hover:block absolute left-[280px] top-1 w-[200px] bg-white border border-gray-200 p-2 rounded-md shadow-md h-[300px]">
-                <a
-                  href="#"
+                <Link
+                  href="/"
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                 >
                   Item 1
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  href="/"
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                 >
                   Item 2
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  href="/"
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                 >
                   Item 3
-                </a>
+                </Link>
               </div>
             </li>
 
@@ -223,24 +224,24 @@ const Header = () => {
               </span>
 
               <div className="hidden group-hover:block absolute left-[280px] top-1 w-[200px] bg-white border border-gray-200 p-2 rounded-md shadow-md h-[300px]">
-                <a
-                  href="#"
+                <Link
+                  href="/"
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                 >
                   Item 1
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  href="/"
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                 >
                   Item 2
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  href="/"
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                 >
                   Item 3
-                </a>
+                </Link>
               </div>
             </li>
 
@@ -256,24 +257,24 @@ const Header = () => {
               </span>
 
               <div className="hidden group-hover:block absolute left-[280px] top-1 w-[200px] bg-white border border-gray-200 p-2 rounded-md shadow-md h-[300px]">
-                <a
-                  href="#"
+                <Link
+                  href="/"
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                 >
                   Item 1
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  href="/"
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                 >
                   Item 2
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  href="/"
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                 >
                   Item 3
-                </a>
+                </Link>
               </div>
             </li>
 
@@ -289,24 +290,24 @@ const Header = () => {
               </span>
 
               <div className="hidden group-hover:block absolute left-[280px] top-1 w-[200px] bg-white border border-gray-200 p-2 rounded-md shadow-md h-[300px]">
-                <a
-                  href="#"
+                <Link
+                  href="/"
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                 >
                   Item 1
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  href="/"
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                 >
                   Item 2
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  href="/"
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                 >
                   Item 3
-                </a>
+                </Link>
               </div>
             </li>
 
@@ -322,55 +323,29 @@ const Header = () => {
               </span>
 
               <div className="hidden group-hover:block absolute left-[280px] top-1 w-[200px] bg-white border border-gray-200 p-2 rounded-md shadow-md h-[300px]">
-                <a
-                  href="#"
+                <Link
+                  href="/"
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                 >
                   Item 1
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  href="/"
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                 >
                   Item 2
-                </a>
-                <a
-                  href="#"
+                </Link>
+                <Link
+                  href="/"
                   className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                 >
                   Item 3
-                </a>
+                </Link>
               </div>
             </li>
           </ul>
 
-          {/* <div className="flex items-center justify-center ">
-          <div className="group relative">
-            <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300 transition">
-              Hover me
-            </button>
-            <div className="hidden group-hover:block absolute right-32 mt-2 bg-white border border-gray-200 p-2 rounded-md shadow-md ml-32">
-              <a
-                href="#"
-                className="block px-4 py-2 text-gray-700 hover:bg-gray-100 ml-32"
-              >
-                Item 1
-              </a>
-              <a
-                href="#"
-                className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
-              >
-                Item 2
-              </a>
-              <a
-                href="#"
-                className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
-              >
-                Item 3
-              </a>
-            </div>
-          </div>
-        </div> */}
+   
         </div>
         <div className="rounded w-full md:w-full lg:w-[70%]">
           <Slider />

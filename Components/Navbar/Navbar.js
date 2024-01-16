@@ -1,4 +1,5 @@
 
+import Image from "next/image";
 import { FaSearch } from "react-icons/fa";
 import { MdOutlineShoppingCart } from "react-icons/md";
 const Navbar = () => {
@@ -38,7 +39,7 @@ const Navbar = () => {
             </div>
             
 
-            <div className="flex justify-end">
+            <div className="flex justify-end z-20">
               <div className=" flex  items-center gap-4">
                 <div className="dropdown dropdown-end">
                   <div
@@ -47,9 +48,11 @@ const Navbar = () => {
                     className="btn btn-ghost btn-circle avatar"
                   >
                     <div className="w-10 rounded-full">
-                      <img
+                      <Image
+                        width={100}
+                        height={100}
                         alt="Tailwind CSS Navbar component"
-                        src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
+                        src="/image/nav.jpg"
                       />
                     </div>
                   </div>

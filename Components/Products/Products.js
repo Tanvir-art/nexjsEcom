@@ -1,9 +1,10 @@
+import Image from "next/image"
 
 const Products = ({title, price, priceOne, totalRating, discount}) => {
   return (
     <div>
       <div className="card card-compact bg-base-100 shadow-xl">
-  <figure><img src="image/product.webp" alt="Shoes" /></figure>
+  <figure><Image width={300} height={500} src="/image/product.webp" alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title text-[14px]">{title}</h2>
     <div className="flex justify-center ">

@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -20,25 +21,25 @@ const Footer = () => {
 
             <ul className="flex flex-col gap-3 text-[#F95706]">
               <li>
-                <a href="">About Us</a>
+                <Link href="">About Us</Link>
               </li>
               <li>
-                <a href="">Help Center</a>
+                <Link href="">Help Center</Link>
               </li>
               <li>
-                <a href="">Buy a New</a>
+                <Link href="">Buy a New</Link>
               </li>
               <li>
-                <a href="">Returns & Refunds</a>
+                <Link href="">Returns & Refunds</Link>
               </li>
               <li>
-                <a href="">Contact Us</a>
+                <Link href="">Contact Us</Link>
               </li>
               <li>
-                <a href="">Terms & Conditions</a>
+                <Link href="">Terms & Conditions</Link>
               </li>
               <li>
-                <a href="">Privacy Policy</a>
+                <Link href="">Privacy Policy</Link>
               </li>
             </ul>
           </div>
